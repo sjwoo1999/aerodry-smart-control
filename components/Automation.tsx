@@ -57,7 +57,7 @@ export const Automation: React.FC<AutomationProps> = ({ routines, addRoutine, de
                 onChange={(e) => setNewTrigger(e.target.value)}
               >
                 <option value="time">Time is 07:00 AM</option>
-                <option value="humidity">Humidity > 80%</option>
+                <option value="humidity">Humidity &gt; 80%</option>
                 <option value="shower">Shower Ends</option>
                 <option value="night">Night Mode Activates</option>
               </select>
